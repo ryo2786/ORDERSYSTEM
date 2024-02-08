@@ -1,0 +1,217 @@
+.Main {
+    background-color: rgb(209, 239, 243);
+  }
+  
+  .header-div{
+    text-align: center;
+    padding-top: 2px;
+  }
+  
+  .header-a{
+    font-size: 20px;
+  }
+  
+  
+  
+  .menu-tab-div{
+    text-align: center;
+    background-color: rgb(48, 163, 179); 
+  }
+  
+  nav{
+    background-color: rgb(48, 163, 179);
+  }
+  
+  
+  
+  .menu-li{
+    display: inline-block;
+    list-style: none;
+    background-color: rgb(48, 163, 179); 
+    border: 0px;
+  }
+  
+  .menu-li:hover{
+    display: inline-block;
+    list-style: none;
+    background-color:  rgb(209, 239, 243);
+  }
+  
+  /* rgb(209, 239, 243); rgb(48, 163, 179); rgb(6, 112, 112);*/
+  
+  
+  /* #region ボタン関係*/
+  
+
+  
+  .btn-available-format{
+    border: 1px solid#ffffff;
+    background-color: rgb(48, 163, 179);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    height: 28px;
+  }
+  
+  .btn-unavailable-format{
+    border: 1px solid#ffffff;
+    background-color: #8f8f8f;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    height: 28px;
+  }
+  
+  /* #endregion */
+  
+  /* #region フィールド関係*/
+  .fieldset-format {
+    border: 2px solid  rgb(48, 163, 179);
+  }
+  
+  .fieldset-legend{
+    font-size: 12pt;
+    color:  rgb(48, 163, 179);
+    font-weight: bold;
+  }
+  /* #endregion */
+  
+  
+  /* #region */
+  /* #endregion */
+  
+  .header {
+    color:  rgb(6, 112, 112);
+    height: 50px;
+    width: 220;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .App {
+    min-width: 200px;
+    background-color:rgb(209, 239, 243);
+  }
+  
+  .body-align {
+    text-align: center;
+  }
+  
+  .main-size{
+    height: 300px;
+    width: 220px;
+    padding: 10px,10px,10px,10px;
+  }
+  
+  
+  /*アカウントラベル*/
+  .account {
+    border: 1px solid #0000ff;
+    height: 36px;
+  }
+  
+  .account-div{
+    width: 100px;
+    border: 1px solid #ff0000;
+    padding-top: 2px;
+  }
+  
+  .account-label{
+    font-size: 7pt;
+    color: rgb(48, 163, 179);
+  }
+  .account-icon-div{
+    background-color: rgb(48, 163, 179);
+    border: 1px solid #333333;
+    height: 28px;
+    width: 28px;  
+    padding: 1px;
+    font-size: 22px;
+  }
+  
+  .main-fieldset{
+    height: 300;
+    width: 250;
+    margin-bottom: 5px;
+  }
+  
+  .main-fieldset-legend{
+    text-align: center;
+  }
+  
+  .wrap {
+    display:flex;
+    flex-flow: column;
+    justify-content:space-between;
+    text-align: center;
+  }
+  
+  .wrap2 {
+    display:flex;
+    justify-content:space-between;  
+  }
+  
+  .wrap3 {
+    display:flex;
+    justify-content:flex-end;
+  }
+  
+  .btn-div-size{
+    width: 150px;
+  }
+  
+  .btn-size{
+    width: 150px;
+  }
+  
+  .a-btn-size{    
+    min-width: 100px;
+  }
+  
+  .btn-div-format {
+    border: 1px solid#8f8f8f;
+    background-color: rgb(48, 163, 179);
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 4px auto;
+    height: 28px;
+  }
+  
+  .btn-div-format:hover {
+    border: 1px solid #0000ff;
+  }
+
+  .login-label-div{
+    width: 100px;
+    text-align: center;
+  }
+
+  .login-input-div{
+    width: 150px;
+    text-align: right;
+  }
+
+/* #region 共通css*/
+.a-btn-available-format{
+  text-align: center;
+  margin: 0 auto;
+  height: 28px;
+  text-decoration:none;
+  color: #ffffff;
+}
+
+.label-format{
+  font-size: 12pt;
+  color:  rgb(48, 163, 179);
+}
+
+.combo-format{
+  border: 1px #ffffff;
+  height: 28px;
+}
+
+/* #endregion */

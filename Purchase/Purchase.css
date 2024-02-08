@@ -1,0 +1,146 @@
+.whole-div{
+    text-align: center;
+    background-color: rgb(209, 239, 243);
+    width: 1000px;
+    height: 560px;
+}
+
+.body{
+    text-align: center;
+    padding-left: 25px;
+}
+
+.top-div{
+    height: 170px;
+    width: 950px;
+    border: 1px;
+    padding-top: 10px;
+}
+
+.top-left-div{
+    width: 375px;
+    height: 160px;
+}
+
+.top-left-top-div{
+    height: 35px;
+    width: 375px;
+}
+
+.top-left-bottom-div{
+    height: 70px;
+    width: 375px;
+}
+
+.top-left-top-left-div{
+    height: 28px;
+    width: 100px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.top-left-bottom-left-div{
+    height: 35px;
+    width: 100px;
+    padding-top: 7px;
+}
+
+.top-left-top-right-div{
+    height: 35px;
+    width: 270px;
+}
+
+.top-left-top-right-combo{
+    margin-top: 4px;
+}
+
+
+
+.top-left-bottom-right-div{
+    height: 70px;
+    width: 270px;
+    background-color: whitesmoke;
+}
+
+.top-center-div{
+    width: 175px;
+    height: 160px;
+    padding-left: 0px;
+}
+
+.top-center-fieldset-size{
+    width: 148px;
+    height: 143px;
+    margin-left: 0px;
+}
+
+.top-right-div{
+    width: 350px;
+    height: 160px;
+}
+
+.top-right-fieldset-size{
+    width: 323px;
+    height: 143px;
+    margin-left: 0px;
+}
+
+.search-fieldset-legend{
+    text-align: left;
+}
+
+.middle-div{
+    height: 300px;
+    width: 950px;
+    height: 160px;
+}
+
+.bottom-div{
+    height: 50px;
+    width: 950px;
+}
+
+.purchase-div-size{
+    width: 100px;
+    height: 35px;
+}
+
+.test{
+    border: 2px;
+    border-color: red;
+    background-color: blueviolet;
+}
+
+.test2{
+    border: 2px;
+    border-color: red;
+    background-color: yellowgreen;
+}
+
+.test3{
+    border: 2px;
+    border-color: red;
+    background-color: mediumspringgreen;
+}
+
+.test4{
+    border: 2px;
+    border-color: red;
+    background-color: blanchedalmond;
+}
+
+.wrap-hori{
+    display:flex;
+    justify-content:space-between;  
+}
+
+.wrap-ver{
+    display:flex;
+    flex-flow: column;
+    justify-content:space-between;
+    text-align: center;
+}
+
+.aa{
+    padding-top: 5px;
+}
